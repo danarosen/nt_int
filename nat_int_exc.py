@@ -75,11 +75,11 @@ for i, blob in enumerate(list_of_data):
     """
     For each article, store the TF-IDF scores in a dictionary scores 
     mapping word score using a dict comprehension.
-    then for each article take 10 most common words, get rid of words that are not actual 
+    then for each article take 10 most common words, gets rid of words that are not actual 
     words(just a scrumble of letters or non letters), 
-    get rid of basic english structure words (the, a, then...)
-    make sure word werent already used as a tag (inserted manually)
-    and if so, add it to important words
+    gets rid of basic english structure words (the, a, then...)
+    makes sure word weren't already used as a tag (inserted manually)
+    and if so, adds it to important words list
     """
     tfidf_words=[]
     scores = {word: tfidf(word, blob, list_of_data) for word in blob.words}
