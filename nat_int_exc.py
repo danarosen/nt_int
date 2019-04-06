@@ -28,7 +28,7 @@ blacklist = ['a','about','after','all','also','an','and','any','as','at','back',
 
 WORDLIST_FILENAME = "words.txt" 
 """
-I looked for a packages that does this automatically, such as enchant or nltk,
+I looked for a package that does this automatically, such as enchant or nltk,
 but had problems with installing them. this list contains 55900 english words so i assume 
 it should be good enough
 """
