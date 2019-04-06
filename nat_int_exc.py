@@ -78,7 +78,7 @@ for i, blob in enumerate(list_of_data):
     then for each article take 10 most common words, gets rid of words that are not actual 
     words(just a scrumble of letters or non letters), 
     gets rid of basic english structure words (the, a, then...)
-    makes sure word weren't already used as a tag (inserted manually)
+    makes sure word wasn't't already used as a tag (inserted manually)
     and if so, adds it to important words list
     """
     tfidf_words=[]
